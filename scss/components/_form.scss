@@ -1,0 +1,26 @@
+.form-group {
+  margin-bottom: 1.5rem;
+
+  &__label {
+    display: block;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  &__input,
+  &__select {
+    outline: none;
+    border: none;
+    width: 100%;
+    min-height: 4rem;
+    padding: 1rem;
+    font-weight: bold;
+    color: #a5a5a5;
+    letter-spacing: 2px;
+    font-family: 'Open Sans', sans-serif;
+    // resize: none;
+  }
+}

@@ -1,0 +1,22 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/hero_background.jpg) center no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: inherit;
+    background-color: $purple-transparent-alt;
+    z-index: -1;
+  }
+}

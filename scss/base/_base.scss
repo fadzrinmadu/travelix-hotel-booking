@@ -1,0 +1,26 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  color: $dark-color;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  padding: 5rem 0;
+}
+
+::placeholder {
+  color: inherit;
+}

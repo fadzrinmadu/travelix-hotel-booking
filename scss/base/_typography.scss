@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans:wght@400;800&display=swap');
+
+
+.main-heading {
+  color: #fff;
+  line-height: 1;
+  text-shadow: 1px 1px 1rem rgba(0, 0, 0, .5);
+  margin-bottom: 2.5rem;
+
+  &__title {
+    font-size: 4.8rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+
+  &__subtitle {
+    font-size: 3.6rem;
+    font-weight: 300;
+    font-family: 'Courgette', cursive;
+  }
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 5rem;
+
+  &__title {
+    display: block;
+    font-size: 4rem;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    font-size: 1.7rem;
+    font-family: 'Courgette', cursive;
+    font-weight: 300;
+    color: #a5a5a5
+  }
+}

@@ -1,0 +1,25 @@
+.header {
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $purple-transparent;
+  z-index: 999;
+}
+
+// Ketika header punya class menu-open
+.menu-open .nav__list {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.menu-open .hamburger-menu .fa-times {
+  display: block;
+}
+
+.menu-open .hamburger-menu .fa-bars {
+  display: none;
+}
