@@ -19,6 +19,10 @@
 @import 'layout/_hero.scss';
 @import 'layout/_booking.scss';
 @import 'layout/_hotels.scss';
+@import 'layout/_offer.scss';
+@import 'layout/_rooms.scss';
+@import 'layout/_contact.scss';
+@import 'layout/_footer.scss';
 
 
 // 5. Components
@@ -27,8 +31,8 @@
 @import 'components/_nav.scss';
 @import 'components/_btn.scss';
 @import 'components/_form.scss';
-@import 'components/_hotel.scss';
 @import 'components/_rating.scss';
+@import 'components/_social-media.scss';
 
 
 // 6. Page-specific styles

@@ -1,0 +1,30 @@
+.social-media-wrapper {
+  @media screen and (min-width: 768px) {
+    flex: 0 0 40%;
+    margin-left: 2.5rem;
+  }
+}
+
+.social-media {
+  display: flex;
+
+  &__link {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    border: 2px solid $yellow-solid;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 1rem;
+    transition: background-color .5s;
+
+    &:hover {
+      background-color: $yellow-solid;
+      color: $dark-color;
+    }
+
+    i {
+      margin: auto;
+    }
+  }
+}

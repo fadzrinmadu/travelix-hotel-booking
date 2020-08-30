@@ -8,6 +8,20 @@
   left: 0;
   background-color: $purple-transparent;
   z-index: 999;
+  transition: height .5s,
+              color .5s;
+
+  @media screen and (min-width: 768px) {
+    height: 10rem;
+  }
+
+  &.active {
+    background-color: $purple-solid;
+
+    @media screen and (min-width: 768px) {
+      height: 6rem;
+    }
+  }
 }
 
 // Ketika header punya class menu-open

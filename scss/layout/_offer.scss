@@ -1,0 +1,28 @@
+.offer {
+  background: 
+    linear-gradient(to right, rgba(250, 158, 44, .8), rgba(143, 88, 251, .8)),
+    url(../images/the_paradise_bg.jpg),
+    bottom center,
+    no-repeat;
+  background-size: cover;
+
+  &__content {
+    background-color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__discount {
+    background-color: $yellow-solid;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    outline: 2px solid $yellow-solid;
+    outline-offset: .5rem;
+  }
+}

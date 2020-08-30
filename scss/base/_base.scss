@@ -19,6 +19,12 @@ ul {
 
 section {
   padding: 5rem 0;
+
+  &:not(.booking) {
+    @media screen and (min-width: 100px) {
+      padding: 10rem 0;
+    }
+  }
 }
 
 ::placeholder {

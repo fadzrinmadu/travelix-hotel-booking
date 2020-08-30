@@ -36,3 +36,13 @@
   margin-top: 2.5rem;
   cursor: pointer;
 }
+
+.btn-room {
+  color: $dark-color;
+  padding: 0;
+  transition: color .5s;
+
+  &:hover {
+    color: $yellow-solid;
+  }
+}

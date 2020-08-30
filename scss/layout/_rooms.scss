@@ -1,0 +1,53 @@
+.rooms {
+  background-color: #f2f6f9;
+
+  &__grid {
+    @media screen and (min-width: 1000px) {
+      grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+      grid-gap: 8rem;
+    }
+  }
+}
+
+.room {
+  @media screen and (min-width: 1000px) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  &__info {
+    @media screen and (min-width: 1000px) {
+      margin-left: 1.5rem;
+    }
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__name {
+    font-size: 2.6rem;
+    background-color: $yellow-solid;
+    color: #fff;
+    padding: .5rem 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 2.5rem;
+    z-index: 10;
+  }
+
+  &__price {
+    display: block;
+    font-size: 3.6rem;
+    font-weight: bold;
+    color: $yellow-solid;
+
+    .per-night {
+      color: $dark-color;
+      font-size: 1.4rem;
+      font-weight: 100;
+    }
+  }
+}

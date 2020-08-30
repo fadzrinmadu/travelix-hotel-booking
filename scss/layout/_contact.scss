@@ -1,0 +1,70 @@
+.contact {
+  &__content {
+    display: flex;
+    justify-content: center;
+
+    @media screen and (min-width: 768px) {
+      justify-content: space-between;
+    }
+  }
+
+  .traveler-wrap {
+    display: none;
+
+    @media screen and (min-width: 768px) {
+      display: block;
+      flex: 0 0 45%;
+    }
+
+    img {
+      @media screen and (min-width: 768px) {
+        width: 100%;
+      }
+    }
+  }
+
+  &__form {
+    width: 100%;
+    background-image: $gradient-color;
+    padding: 2.5rem;
+
+    @media screen and (min-width: 768px) {
+      flex: 0 0 50%;
+      align-self: flex-start;
+    }
+  }
+
+  .form-group {
+    &__input,
+    &__textarea {
+      display: block;
+      background-color: transparent;
+      color: #fff;
+      font-weight: normal;
+      border-bottom: 2px solid #fff;
+      padding-left: 0;
+
+      &:focus + .bar::after {
+        transform: scaleX(1);
+      }
+    }
+  }
+
+  .bar {
+    display: block;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 3px;
+      background-color: $purple-light;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform .5s;
+    }
+  }
+}

@@ -5,6 +5,10 @@
   position: relative;
   z-index: 1500;
 
+  @media screen and (min-width: 1000px) {
+    display: none;
+  }
+
   .fa-times {
     display: none;
   }
